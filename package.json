@@ -1,0 +1,26 @@
+{
+  "name": "next-pilot",
+  "version": "0.1.0",
+  "description": "next-pilot is an administration panel for quickly invalidating pages in Next.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "admin",
+    "invalidation"
+  ],
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@types/react": "^18.0.23",
+    "clean-publish": "^4.0.1",
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
+  },
+  "files": [
+    "dist"
+  ]
+}
